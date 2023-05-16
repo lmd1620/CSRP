@@ -12,7 +12,7 @@ We investigate a deterministic continuity-skill-restricted scheduling and routin
 The data used in this study is publicly available at the following website* https://doi.org/10.5281/zenodo.7928388
 
 ## Content
-“*” simulate.py - defines new scenarios, runs the simulation, and saves the simulation's output as a single .xlsx file in the output/ subfolder
+* simulate.py - defines new scenarios, runs the simulation, and saves the simulation's output as a single .xlsx file in the output/ subfolder
 supporting.py - includes supporting code such as functions to execute routing algorithms and calculate transportation costs
 combine_outputs.py - combines simulation output files from the /output subfolder into a single summary .xlsx sheet
 create_figures.R - reads in all files in the output/ subfolder and generates summary graphs
