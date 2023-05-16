@@ -12,9 +12,26 @@ We investigate a deterministic continuity-skill-restricted scheduling and routin
 The data used in this study is publicly available at the following website* https://doi.org/10.5281/zenodo.7928388
 
 ## Content
-* cplex - defines new scenarios, runs the simulation, and saves the simulation's output as a single .xlsx file in the output/ subfolder
-  * 1
-* supporting.py - includes supporting code such as functions to execute routing algorithms and calculate transportation costs
-* combine_outputs.py - combines simulation output files from the /output subfolder into a single summary .xlsx sheet
-create_figures.R - reads in all files in the output/ subfolder and generates summary graphs
-Also, the Jupyter notebook routing_examples.ipynb is a supplemental file that allows users to generate a random customer and demand instance and see the resulting routes and costs under the different routing strategies.
+* cplex - solve the compact formulation with the CPLEX
+  * global_variables.cpp
+  * global_functions.cpp
+  * cplexptree.cpp 
+* CSRP_out_of_performance - includes supporting BPC code for solving the CSRP 
+  * global_variables.cpp
+  * global_functions.cpp
+  * heuristic.cpp - includes supporting code for warm-up heuristic algorithm
+  * bp_form.cpp - includes supporting code for branch-and-bound algorithm
+  * labelcor.cpp - includes supporting code for label-setting algorithm to solve the pricing problem
+  * tabu.cpp - includes supporting code for heuristic pricing algorithm 
+  * main.cpp 
+* SCSRP_out_of_performance - includes supporting BPC code for solving the SCSRP 
+  * global_variables.cpp
+  * global_functions.cpp
+  * heuristic.cpp - includes supporting code for warm-up heuristic algorithm
+  * bp_form.cpp - includes supporting code for branch-and-bound algorithm
+  * labelcor.cpp - includes supporting code for label-setting algorithm to solve the pricing problem
+  * tabu.cpp - includes supporting code for heuristic pricing algorithm 
+  * main.cpp 
+
+## Requirements
+A CPLEX solver is necessary for solving the LP and MIP models. 
