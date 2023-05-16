@@ -3,7 +3,7 @@ May 2023 Update: the official paper is to be published online!  If you find the 
 # CSRP
 Continuity-skill-restricted Scheduling and Routing Problem: Formulation, Optimization and Implications
 
-We investigate a deterministic continuity-skill-restricted scheduling and routing problem (CSRP) and its stochastic variant (SCSRP) to address attended home healthcare (AHH) problem, which is a variant of classical vehicle routing problem with time windows (VRPTW). We propose a branch-price-and-cut (BPC) algorithm to solve the CSRP and a discrete-approximation-method adaption for the SCSRP.
+
 
 ## Overview
-
+We investigate a deterministic continuity-skill-restricted scheduling and routing problem (CSRP) and its stochastic variant (SCSRP) to address attended home healthcare (AHH) problem, which is a variant of classical vehicle routing problem with time windows (VRPTW). We propose a branch-price-and-cut (BPC) algorithm to solve the CSRP and a discrete-approximation-method adaption for the SCSRP.
