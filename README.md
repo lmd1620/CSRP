@@ -35,3 +35,7 @@ The data used in this study is publicly available at the following website* http
 
 ## Requirements
 A CPLEX solver is necessary for solving the LP and MIP models. 
+
+## Contributors
+Mingda Liu, Tsinghua University, ydtmingda16@163.com
+Yanlu Zhao, Durham University, yanlu.zhao@durham.ac.uk
