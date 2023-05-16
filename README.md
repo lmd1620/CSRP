@@ -38,5 +38,7 @@ A CPLEX solver is necessary for solving the LP and MIP models.
 
 ## Contributors
 Mingda Liu, Tsinghua University, ydtmingda16@163.com
+
 Yanlu Zhao, Durham University, yanlu.zhao@durham.ac.uk
+
 Xiaolei Xie, Tsinghua Univeristy, xxie@tsinghua.edu.cn
