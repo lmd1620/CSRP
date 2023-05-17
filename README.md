@@ -37,7 +37,7 @@ The data used in this study is publicly available at the following website* http
 A CPLEX solver is necessary for solving the LP and MIP models. 
 
 ## Attention
-Different $ng\_size$ values result in different outcomes. 
+Different $ng$_$size$ values result in different outcomes. 
 
 ## Contributors
 Mingda Liu, Tsinghua University, ydtmingda16@163.com
